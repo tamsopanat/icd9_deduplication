@@ -53,7 +53,7 @@ if 'processed_results' not in st.session_state:
 
 
 # --- 3. UI: HEADER ---
-st.title("🗂️ Coder Workspace: ICD-9 Deduplication")
+st.title("ICD-9 Deduplication")
 st.markdown("---")
 
 # --- 4. STAGE 1: DRAFTING ---
