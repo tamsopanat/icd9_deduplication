@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 
 # --- 1. PAGE SETUP & DATA LOADING ---
 st.set_page_config(page_title="ICD-9 Deduplication Engine", layout="wide")
-st.title("ICD-9 Code Deduplication")
+st.title("ICD-9 Deduplication")
 st.markdown("Enter a list of ICD-9 codes. The engine will process them through the validation, inclusion, combination, and alert pipelines.")
 
 # Cache the data loading so the dashboard remains fast
