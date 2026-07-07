@@ -26,7 +26,7 @@ def remove_less_detailed_code(input_code : list[str]) -> list[str]:
             result.append(code)
     return result
 
-includeMap_dict = {row['Code'] : row['Code_include_expand'].split(', ') for i, row in includeMap.iterrows()}
+includeMap_dict = {row['Code'] : row['Code_include'].split(', ') for i, row in includeMap.iterrows()}
 def remove_include_code(input_code : list[str]) -> list[str]:
     removal_reasons = {}
     for code in input_code:
