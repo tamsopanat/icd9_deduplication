@@ -33,7 +33,7 @@ cleaned_codes
 ```
 
 ## Evaluation of inclusion mapping
-This evaluation was conducted using **Gemini 3.5 Flash** (via `ai_check.ipynb`). 
+This evaluation was conducted using **Gemini 3.5 Flash** (via [ai_check.ipynb](script/ai_check.ipynb)) 
 
 📊 **[View the Inclusion Mapping Workflow Diagram](result/inclusionMapping_diagram.html)**
 - **Total Rows Evaluated:** 135
