@@ -1,0 +1,69 @@
+Parent Category:
+- Title: Repair of hernia
+- Inclusion terms: herniorrhaphy
+
+Target Code to verify:
+- Title: Suture of laceration of small intestine, except duodenum
+===
+Parent Category:
+- Title: Repair of hernia
+- Inclusion terms: herniorrhaphy
+
+Target Code to verify:
+- Title: Suture of laceration of large intestine
+===
+Parent Category:
+- Title: Other operations on abdominal region
+- Inclusion terms: operations on: flank
+
+Target Code to verify:
+- Title: Operations on anus
+===
+Parent Category:
+- Title: Other operations on abdominal region
+- Inclusion terms: operations on: flank
+
+Target Code to verify:
+- Title: Operations on lens
+===
+Parent Category:
+- Title: Other operations on abdominal region
+- Inclusion terms: operations on: flank
+
+Target Code to verify:
+- Title: Operations on thalamus
+===
+Parent Category:
+- Title: Other operations on abdominal region
+- Inclusion terms: operations on: flank
+
+Target Code to verify:
+- Title: Operations on vitreous
+===
+Parent Category:
+- Title: Other operations on abdominal region
+- Inclusion terms: operations on: flank
+
+Target Code to verify:
+- Title: Operations on cornea
+===
+Parent Category:
+- Title: Other operations on abdominal region
+- Inclusion terms: operations on: flank
+
+Target Code to verify:
+- Title: Operations on ureter
+===
+Parent Category:
+- Title: Other operations on abdominal region
+- Inclusion terms: operations on: peritoneum
+
+Target Code to verify:
+- Title: Operations on ovary
+===
+Parent Category:
+- Title: Operations on kidney
+- Inclusion terms: operations on renal pelvis
+
+Target Code to verify:
+- Title: Operations on urinary bladder

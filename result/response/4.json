@@ -1,0 +1,42 @@
+[
+  {
+    "reasoning": "Other mastoidectomy falls under the included mastoidectomy criteria.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Incision is not an implantation, replacement, or mastoidectomy.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Mastoidectomy matches the parent category inclusion criteria.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Mastectomy is breast surgery, completely unrelated to cochlear/mastoid.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Simple mastoidectomy falls under the included mastoidectomy criteria.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Revision of mastoidectomy falls under included mastoidectomy criteria.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Radical mastoidectomy falls under the included mastoidectomy criteria.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Other mastoidectomy falls under the included mastoidectomy criteria.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Lens is part of the eye, not mouth/face.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Eyelids belong to the eye region, not mouth/face.",
+    "is_correct": false
+  }
+]

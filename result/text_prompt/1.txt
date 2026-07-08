@@ -1,0 +1,69 @@
+Parent Category:
+- Title: Operations on other endocrine glands
+- Inclusion terms: operations on: thymus
+
+Target Code to verify:
+- Title: Operations on thalamus
+===
+Parent Category:
+- Title: Operations on other endocrine glands
+- Inclusion terms: operations on: thymus
+
+Target Code to verify:
+- Title: Operations on vitreous
+===
+Parent Category:
+- Title: Operations on other endocrine glands
+- Inclusion terms: operations on: thymus
+
+Target Code to verify:
+- Title: Operations on cornea
+===
+Parent Category:
+- Title: Operations on other endocrine glands
+- Inclusion terms: operations on: thymus
+
+Target Code to verify:
+- Title: Operations on ureter
+===
+Parent Category:
+- Title: Repair of retinal tear
+- Inclusion terms: repair of retinal defect
+
+Target Code to verify:
+- Title: Other and unspecified repair of unspecified septal defect of heart
+===
+Parent Category:
+- Title: Atherectomy of other non-coronary vessel(s)
+- Inclusion terms: Atherectomy of other non-coronary vessel(s) That by laser
+
+Target Code to verify:
+- Title: Percutaneous atherectomy of extracranial vessel(s)
+===
+Parent Category:
+- Title: Atherectomy of other non-coronary vessel(s)
+- Inclusion terms: Atherectomy of other non-coronary vessel(s) That by transluminal extraction
+
+Target Code to verify:
+- Title: Percutaneous atherectomy of extracranial vessel(s)
+===
+Parent Category:
+- Title: Atherectomy of other non-coronary vessel(s)
+- Inclusion terms: Atherectomy of other non-coronary vessel(s) That by transluminal extraction
+
+Target Code to verify:
+- Title: Percutaneous atherectomy of intracranial vessel(s)
+===
+Parent Category:
+- Title: Atherectomy of other non-coronary vessel(s)
+- Inclusion terms: Directional atherectomy
+
+Target Code to verify:
+- Title: Percutaneous atherectomy of extracranial vessel(s)
+===
+Parent Category:
+- Title: Atherectomy of other non-coronary vessel(s)
+- Inclusion terms: Directional atherectomy
+
+Target Code to verify:
+- Title: Transluminal coronary atherectomy

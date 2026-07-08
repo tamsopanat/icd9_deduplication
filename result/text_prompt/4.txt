@@ -1,0 +1,69 @@
+Parent Category:
+- Title: Implantation or replacement of cochlear prosthetic device, single channel
+- Inclusion terms: mastoidectomy
+
+Target Code to verify:
+- Title: Other mastoidectomy
+===
+Parent Category:
+- Title: Implantation or replacement of cochlear prosthetic device, multiple channel
+- Inclusion terms: mastoidectomy
+
+Target Code to verify:
+- Title: Incision of mastoid
+===
+Parent Category:
+- Title: Implantation or replacement of cochlear prosthetic device, multiple channel
+- Inclusion terms: mastoidectomy
+
+Target Code to verify:
+- Title: Mastoidectomy
+===
+Parent Category:
+- Title: Implantation or replacement of cochlear prosthetic device, multiple channel
+- Inclusion terms: mastoidectomy
+
+Target Code to verify:
+- Title: Mastectomy
+===
+Parent Category:
+- Title: Implantation or replacement of cochlear prosthetic device, multiple channel
+- Inclusion terms: mastoidectomy
+
+Target Code to verify:
+- Title: Simple mastoidectomy
+===
+Parent Category:
+- Title: Implantation or replacement of cochlear prosthetic device, multiple channel
+- Inclusion terms: mastoidectomy
+
+Target Code to verify:
+- Title: Revision of mastoidectomy
+===
+Parent Category:
+- Title: Implantation or replacement of cochlear prosthetic device, multiple channel
+- Inclusion terms: mastoidectomy
+
+Target Code to verify:
+- Title: Radical mastoidectomy
+===
+Parent Category:
+- Title: Implantation or replacement of cochlear prosthetic device, multiple channel
+- Inclusion terms: mastoidectomy
+
+Target Code to verify:
+- Title: Other mastoidectomy
+===
+Parent Category:
+- Title: Other operations on mouth and face
+- Inclusion terms: operations on: lips
+
+Target Code to verify:
+- Title: Operations on lens
+===
+Parent Category:
+- Title: Other operations on mouth and face
+- Inclusion terms: operations on: lips
+
+Target Code to verify:
+- Title: Operations on eyelids

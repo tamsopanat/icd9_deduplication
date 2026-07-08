@@ -1,0 +1,42 @@
+[
+  {
+    "reasoning": "Suture of intestinal laceration is not a hernia repair.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Suture of intestinal laceration is not a hernia repair.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "The anus is part of the lower GI tract, not flank.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "The lens is in the eye, unrelated to the flank.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "The thalamus is in the brain, unrelated to the flank.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "The vitreous is in the eye, unrelated to the flank.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "The cornea is in the eye, unrelated to the flank.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "The ureter is part of the urinary tract, not abdominal flank.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "The ovary belongs to the female reproductive system, not peritoneum.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Bladder procedures are distinct from kidney and renal pelvis operations.",
+    "is_correct": false
+  }
+]

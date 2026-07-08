@@ -1,0 +1,69 @@
+Parent Category:
+- Title: Operations on urethra
+- Inclusion terms: operations on: periurethral tissue
+
+Target Code to verify:
+- Title: nan
+===
+Parent Category:
+- Title: Other bilateral destruction or occlusion of fallopian tubes
+- Inclusion terms: destruction of solitary fallopian tube
+
+Target Code to verify:
+- Title: Removal of remaining fallopian tube
+===
+Parent Category:
+- Title: Uterine artery embolization [UAE] without coils
+- Inclusion terms: Uterine artery embolization [UAE] without coils that by: gelatin sponge
+
+Target Code to verify:
+- Title: Uterine artery embolization [UAE] with coils
+===
+Parent Category:
+- Title: Reduction of fracture and dislocation
+- Inclusion terms: application of cast or splint
+
+Target Code to verify:
+- Title: Application of splint
+===
+Parent Category:
+- Title: Incision and excision of joint structures
+- Inclusion terms: operations on: condyle
+
+Target Code to verify:
+- Title: Operations on cornea
+===
+Parent Category:
+- Title: Incision and excision of joint structures
+- Inclusion terms: operations on: condyle
+
+Target Code to verify:
+- Title: Operations on thalamus
+===
+Parent Category:
+- Title: Incision and excision of joint structures
+- Inclusion terms: operations on: condyle
+
+Target Code to verify:
+- Title: Operations on vitreous
+===
+Parent Category:
+- Title: Incision and excision of joint structures
+- Inclusion terms: operations on: ligament
+
+Target Code to verify:
+- Title: nan
+===
+Parent Category:
+- Title: Repair of the anulus fibrosus with graft or prosthesis
+- Inclusion terms: microsurgical suture repair with fascial autograft
+
+Target Code to verify:
+- Title: Other and unspecified repair of the anulus fibrosus
+===
+Parent Category:
+- Title: Insertion of spinal disc prosthesis, not otherwise specified
+- Inclusion terms: diskectomy (discectomy)
+
+Target Code to verify:
+- Title: Excision of intervertebral disc

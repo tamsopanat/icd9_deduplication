@@ -1,0 +1,22 @@
+[
+  {
+    "reasoning": "Arteriography visualizes arteries, whereas phlebography is strictly for veins.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Angiocardiography visualizes heart chambers, not peripheral veins specifically.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Ocular ultrasound is a type of diagnostic ultrasonography.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Non-invasive ventilation directly contradicts an invasive mechanical ventilation category.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Extracorporeal circulation is a heart-lung bypass machine, not mechanical ventilation.",
+    "is_correct": false
+  }
+]

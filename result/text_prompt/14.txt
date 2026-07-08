@@ -1,0 +1,34 @@
+Parent Category:
+- Title: Phlebography
+- Inclusion terms: venography using contrast material
+
+Target Code to verify:
+- Title: Arteriography using contrast material
+===
+Parent Category:
+- Title: Phlebography
+- Inclusion terms: venography using contrast material
+
+Target Code to verify:
+- Title: Angiocardiography using contrast material
+===
+Parent Category:
+- Title: Diagnostic ultrasound
+- Inclusion terms: Ultrasonography
+
+Target Code to verify:
+- Title: Ultrasound study of eye
+===
+Parent Category:
+- Title: Other continuous invasive mechanical ventilation
+- Inclusion terms: BiPAP delivered through endotracheal tube or tracheostomy (invasive interface)
+
+Target Code to verify:
+- Title: Non-invasive mechanical ventilation
+===
+Parent Category:
+- Title: Other continuous invasive mechanical ventilation
+- Inclusion terms: Endotracheal respiratory assistance
+
+Target Code to verify:
+- Title: Extracorporeal circulation auxiliary to open heart surgery

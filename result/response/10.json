@@ -1,0 +1,42 @@
+[
+  {
+    "reasoning": "Unspecified heart valve is outside the specific tricuspid category.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Removal of a device does not fall under insertion categories.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Removal of a device does not fall under insertion categories.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "A diagnostic ECG is not a central venous catheter placement.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Duodenostomy is a distinct procedure from loop enterostomy exteriorization.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Sialoadenectomy is salivary gland removal, completely unrelated to rectum.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Partial proctectomy is distinct from an abdominoperineal complete proctectomy.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Cystectomy is bladder removal, completely unrelated to the rectum.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Missing target code data cannot be mapped.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Liver operations are separate from biliary tract/hepatic duct procedures.",
+    "is_correct": false
+  }
+]

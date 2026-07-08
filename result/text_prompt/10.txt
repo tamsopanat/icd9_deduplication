@@ -1,0 +1,69 @@
+Parent Category:
+- Title: Open and other replacement of tricuspid valve with tissue graft
+- Inclusion terms: Open and other replacement of tricuspid valve with tissue graft that by: homograft
+
+Target Code to verify:
+- Title: Open and other replacement of unspecified heart valve
+===
+Parent Category:
+- Title: Insertion of percutaneous external heart assist device
+- Inclusion terms: Extrinsic heart assist device
+
+Target Code to verify:
+- Title: Nonoperative removal of heart assist system
+===
+Parent Category:
+- Title: Insertion of percutaneous external heart assist device
+- Inclusion terms: Percutaneous heart assist device
+
+Target Code to verify:
+- Title: Nonoperative removal of heart assist system
+===
+Parent Category:
+- Title: Central venous catheter placement with guidance
+- Inclusion terms: electrocardiogram
+
+Target Code to verify:
+- Title: Electrocardiogram
+===
+Parent Category:
+- Title: Exteriorization of intestine
+- Inclusion terms: loop enterostomy
+
+Target Code to verify:
+- Title: Duodenostomy
+===
+Parent Category:
+- Title: Abdominoperineal resection of rectum
+- Inclusion terms: Complete proctectomy
+
+Target Code to verify:
+- Title: Complete sialoadenectomy
+===
+Parent Category:
+- Title: Abdominoperineal resection of rectum
+- Inclusion terms: Complete proctectomy
+
+Target Code to verify:
+- Title: Partial proctectomy
+===
+Parent Category:
+- Title: Abdominoperineal resection of rectum
+- Inclusion terms: Complete proctectomy
+
+Target Code to verify:
+- Title: Partial cystectomy
+===
+Parent Category:
+- Title: Abdominoperineal resection of rectum
+- Inclusion terms: Complete proctectomy
+
+Target Code to verify:
+- Title: nan
+===
+Parent Category:
+- Title: Operations on gallbladder and biliary tract
+- Inclusion terms: operations on: hepatic duct
+
+Target Code to verify:
+- Title: Operations on liver

@@ -1,0 +1,69 @@
+Parent Category:
+- Title: Insertion of partial spinal disc prosthesis, cervical
+- Inclusion terms: diskectomy (discectomy)
+
+Target Code to verify:
+- Title: Excision of intervertebral disc
+===
+Parent Category:
+- Title: Insertion of total spinal disc prosthesis, cervical
+- Inclusion terms: diskectomy (discectomy)
+
+Target Code to verify:
+- Title: Excision of intervertebral disc
+===
+Parent Category:
+- Title: Insertion of spinal disc prosthesis, thoracic
+- Inclusion terms: diskectomy (discectomy)
+
+Target Code to verify:
+- Title: Excision of intervertebral disc
+===
+Parent Category:
+- Title: Insertion of partial spinal disc prosthesis, lumbosacral
+- Inclusion terms: diskectomy (discectomy)
+
+Target Code to verify:
+- Title: Excision of intervertebral disc
+===
+Parent Category:
+- Title: Insertion of total spinal disc prosthesis, lumbosacral
+- Inclusion terms: diskectomy (discectomy)
+
+Target Code to verify:
+- Title: Excision of intervertebral disc
+===
+Parent Category:
+- Title: Operations on skin and subcutaneous tissue
+- Inclusion terms: operations on: male perineum
+
+Target Code to verify:
+- Title: Other operations on vulva
+===
+Parent Category:
+- Title: Operations on skin and subcutaneous tissue
+- Inclusion terms: operations on: nails
+
+Target Code to verify:
+- Title: Operations on anus
+===
+Parent Category:
+- Title: Operations on skin and subcutaneous tissue
+- Inclusion terms: operations on: nails
+
+Target Code to verify:
+- Title: Operations on lens
+===
+Parent Category:
+- Title: Operations on skin and subcutaneous tissue
+- Inclusion terms: operations on: nails
+
+Target Code to verify:
+- Title: Operations on nose
+===
+Parent Category:
+- Title: Free skin graft
+- Inclusion terms: excision of skin for autogenous graft
+
+Target Code to verify:
+- Title: Excision of skin for graft

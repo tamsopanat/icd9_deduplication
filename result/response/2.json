@@ -1,0 +1,42 @@
+[
+  {
+    "reasoning": "Intracranial vessels are non-coronary, matching the parent category.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Extracranial vessels are non-coronary, matching the parent category.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Coronary vessels are explicitly excluded from non-coronary categories.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Intracranial vessels are non-coronary, matching the parent category.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Extracranial vessels are non-coronary, matching the parent category.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Coronary vessels are explicitly excluded from non-coronary categories.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Intracranial vessels are non-coronary, matching the parent category.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Incision is not an implantation, replacement, or mastoidectomy.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Mastoidectomy matches the parent category inclusion criteria.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Mastectomy is breast surgery, completely unrelated to cochlear/mastoid.",
+    "is_correct": false
+  }
+]

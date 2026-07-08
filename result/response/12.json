@@ -1,0 +1,42 @@
+[
+  {
+    "reasoning": "Missing target code data cannot be mapped.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Surgical removal (salpingectomy) is not a destruction/occlusion procedure.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Embolization with coils explicitly contradicts the without coils parent category.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Application of splint directly matches the category inclusion terms.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "The cornea is an ocular structure, not a joint condyle.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "The thalamus is a brain structure, not a joint condyle.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "The vitreous is an eye structure, not a joint condyle.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Missing target code data cannot be mapped.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Specific graft/prosthesis repairs are excluded from unspecified repair codes.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Excision/diskectomy is a necessary component of spinal prosthesis insertion.",
+    "is_correct": true
+  }
+]

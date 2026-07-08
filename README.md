@@ -30,3 +30,21 @@ def de_duplicate_icd9(input_code : list[str]) -> list[str]:
 raw_codes = ["1733", "1735"]
 cleaned_codes = de_duplicate_icd9(raw_codes)
 cleaned_codes
+```
+
+## Evaluation of inclusion mapping
+This evaluation was conducted using **Gemini 3.5 Flash** (via `ai_check.ipynb`). 
+
+📊 **[View the Inclusion Mapping Workflow Diagram](result/inclusionMapping_diagram.html)**
+- **Total Rows Evaluated:** 135
+- **Total Correct Mappings:** 33
+- **Overall Accuracy:** 24.44%
+
+### Performance per Method
+The table below displays the accuracy across different mapping methods. Note that since maps can be found by multiple methods simultaneously, the sum of individual predictions may exceed unique row totals.
+
+| Method | Total Predictions | Correct Predictions | Accuracy (%) |
+| :--- | :---: | :---: | :---: |
+| **PubMedBERT** | 124 | 33 | 26.61% |
+| **LavenDist** | 64 | 9 | 14.06% |
+| **TFIDF** | 51 | 3 | 5.88% |

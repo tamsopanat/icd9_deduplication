@@ -1,0 +1,42 @@
+[
+  {
+    "reasoning": "Excision/diskectomy is a necessary component of spinal prosthesis insertion.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Excision/diskectomy is a necessary component of spinal prosthesis insertion.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Excision/diskectomy is a necessary component of spinal prosthesis insertion.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Excision/diskectomy is a necessary component of spinal prosthesis insertion.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Excision/diskectomy is a necessary component of spinal prosthesis insertion.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Vulva operations belong to female anatomy, not male perineum.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "The anus is gastrointestinal, unrelated to skin nails.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "The lens is ocular, completely unrelated to skin nails.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Nose operations belong to respiratory/ENT, not standard skin nails.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Excision of skin for graft directly matches the inclusion criteria.",
+    "is_correct": true
+  }
+]

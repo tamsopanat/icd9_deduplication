@@ -1,0 +1,69 @@
+Parent Category:
+- Title: Other operations on mouth and face
+- Inclusion terms: operations on: lips
+
+Target Code to verify:
+- Title: Operations on liver
+===
+Parent Category:
+- Title: Other operations on mouth and face
+- Inclusion terms: operations on: lips
+
+Target Code to verify:
+- Title: Operations on tongue
+===
+Parent Category:
+- Title: Other operations on mouth and face
+- Inclusion terms: operations on: palate
+
+Target Code to verify:
+- Title: Operations on tongue
+===
+Parent Category:
+- Title: Open and other replacement of aortic valve with tissue graft
+- Inclusion terms: Open and other replacement of aortic valve with tissue graft that by: autograft
+
+Target Code to verify:
+- Title: Open and other replacement of pulmonary valve with tissue graft
+===
+Parent Category:
+- Title: Open and other replacement of aortic valve with tissue graft
+- Inclusion terms: Open and other replacement of aortic valve with tissue graft that by: autograft
+
+Target Code to verify:
+- Title: Open and other replacement of mitral valve with tissue graft
+===
+Parent Category:
+- Title: Open and other replacement of aortic valve with tissue graft
+- Inclusion terms: Open and other replacement of aortic valve with tissue graft that by: autograft
+
+Target Code to verify:
+- Title: Open and other replacement of unspecified heart valve
+===
+Parent Category:
+- Title: Open and other replacement of aortic valve with tissue graft
+- Inclusion terms: Open and other replacement of aortic valve with tissue graft that by: autograft
+
+Target Code to verify:
+- Title: Open and other replacement of tricuspid valve with tissue graft
+===
+Parent Category:
+- Title: Open and other replacement of aortic valve with tissue graft
+- Inclusion terms: Open and other replacement of aortic valve with tissue graft that by: heterograft
+
+Target Code to verify:
+- Title: Open and other replacement of unspecified heart valve
+===
+Parent Category:
+- Title: Open and other replacement of aortic valve with tissue graft
+- Inclusion terms: Open and other replacement of aortic valve with tissue graft that by: heterograft
+
+Target Code to verify:
+- Title: Open and other replacement of pulmonary valve with tissue graft
+===
+Parent Category:
+- Title: Open and other replacement of aortic valve with tissue graft
+- Inclusion terms: Open and other replacement of aortic valve with tissue graft that by: heterograft
+
+Target Code to verify:
+- Title: Open and other replacement of mitral valve with tissue graft

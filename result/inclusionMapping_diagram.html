@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ICD-9 Inclusion Mapping Workflow</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #eef2f3;
+    --paper: #ffffff;
+    --ink: #16232b;
+    --ink-soft: #4b5b63;
+    --hairline: #d7e0e3;
+
+    --teal: #1f6f78;
+    --teal-tint: #e3f0ef;
+    --blue: #3d7ea6;
+    --blue-tint: #e7f1f7;
+    --amber: #b9722c;
+    --amber-tint: #fbeedd;
+    --violet: #6c4f96;
+    --violet-tint: #efe8f6;
+    --green: #1f7a4d;
+    --green-deep: #14532f;
+  }
+
+  * { box-sizing: border-box; }
+
+  body{
+    margin:0;
+    font-family:'IBM Plex Sans', sans-serif;
+    background:
+      radial-gradient(circle at 15% 8%, #f4f8f8 0%, var(--bg) 45%),
+      var(--bg);
+    color:var(--ink);
+    display:flex;
+    justify-content:center;
+    padding:56px 20px 80px;
+  }
+
+  .sheet{
+    width:100%;
+    max-width:980px;
+  }
+
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11.5px;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--teal);
+    font-weight:600;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:10px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:22px; height:2px;
+    background:var(--teal);
+    display:inline-block;
+  }
+
+  h1{
+    font-size:29px;
+    font-weight:700;
+    letter-spacing:-.01em;
+    margin:0 0 8px;
+    color:var(--ink);
+  }
+
+  .dek{
+    font-size:14.5px;
+    color:var(--ink-soft);
+    line-height:1.55;
+    max-width:640px;
+    margin:0 0 34px;
+  }
+
+  .card{
+    background:var(--paper);
+    border:1px solid var(--hairline);
+    border-radius:16px;
+    padding:34px 30px 14px;
+    box-shadow:0 1px 2px rgba(22,35,43,0.04), 0 18px 40px -22px rgba(22,35,43,0.18);
+  }
+
+  svg { display:block; width:100%; height:auto; }
+
+  .node-label{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-weight:600;
+  }
+  .node-sub{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:500;
+  }
+  .tag{
+    font-family:'IBM Plex Mono', monospace;
+    letter-spacing:.06em;
+  }
+
+  .legend{
+    display:flex;
+    flex-wrap:wrap;
+    gap:18px 26px;
+    padding:22px 4px 6px;
+    border-top:1px solid var(--hairline);
+    margin-top:18px;
+  }
+  .legend-item{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:12.5px;
+    color:var(--ink-soft);
+  }
+  .swatch{
+    width:12px; height:12px;
+    border-radius:3.5px;
+    flex:none;
+  }
+
+  .footer-note{
+    max-width:980px;
+    margin:22px auto 0;
+    font-size:12px;
+    color:#7c8a90;
+    text-align:center;
+    line-height:1.6;
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <div class="eyebrow">NLP Pipeline · Medical Coding</div>
+  <h1>ICD-9 Inclusion Mapping Workflow</h1>
+  <p class="dek">Three similarity methods score every "include" query against the ICD-9 term. Only matches surviving the 75th-percentile cut are pooled and passed to a model for final validation.</p>
+
+  <div class="card">
+    <svg viewBox="0 0 1000 1120" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="#9fb0b6"/>
+        </marker>
+        <linearGradient id="finalGrad" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#22885a"/>
+          <stop offset="100%" stop-color="#155c39"/>
+        </linearGradient>
+        <linearGradient id="funnelGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#1f6f78" stop-opacity="0.07"/>
+          <stop offset="100%" stop-color="#1f6f78" stop-opacity="0.02"/>
+        </linearGradient>
+      </defs>
+
+      <!-- signature convergence funnel behind the three methods -->
+      <polygon points="120,368 880,368 660,565 340,565" fill="url(#funnelGrad)" stroke="#1f6f78" stroke-opacity="0.12" stroke-width="1"/>
+
+      <!-- connectors -->
+      <g stroke="#c3cfd3" stroke-width="1.6" fill="none">
+        <path d="M500,70 L500,105" marker-end="url(#arrow)"/>
+        <path d="M500,58 C 350,58 300,80 300,105" marker-end="url(#arrow)"/>
+        <path d="M500,58 C 650,58 700,80 700,105" marker-end="url(#arrow)"/>
+
+        <path d="M300,168 C 300,220 420,238 468,255" marker-end="url(#arrow)"/>
+        <path d="M700,168 C 700,220 580,238 532,255" marker-end="url(#arrow)"/>
+
+        <path d="M470,282 C 350,300 220,320 190,360" marker-end="url(#arrow)"/>
+        <path d="M500,300 L500,360" marker-end="url(#arrow)"/>
+        <path d="M530,282 C 650,300 780,320 810,360" marker-end="url(#arrow)"/>
+
+        <path d="M190,432 C 220,480 400,515 460,540" marker-end="url(#arrow)"/>
+        <path d="M500,432 L500,540" marker-end="url(#arrow)"/>
+        <path d="M810,432 C 780,480 600,515 540,540" marker-end="url(#arrow)"/>
+
+        <path d="M500,600 L500,635" marker-end="url(#arrow)"/>
+        <path d="M500,697 L500,732" marker-end="url(#arrow)"/>
+        <path d="M500,800 L500,838" marker-end="url(#arrow)"/>
+      </g>
+
+      <!-- Start -->
+      <circle cx="500" cy="42" r="26" fill="#f4f7f7" stroke="#9fb0b6" stroke-width="1.6"/>
+      <text x="500" y="47" text-anchor="middle" class="node-label" font-size="11.5" fill="var(--ink)">START</text>
+
+      <!-- Extraction boxes -->
+      <rect x="180" y="105" width="240" height="63" rx="10" fill="var(--paper)" stroke="#c7d2d6" stroke-width="1.4"/>
+      <text x="300" y="130" text-anchor="middle" class="node-label" font-size="13.5" fill="var(--ink)">Extract Queries</text>
+      <text x="300" y="149" text-anchor="middle" class="node-sub" font-size="11" fill="var(--ink-soft)">"include" text field</text>
+
+      <rect x="580" y="105" width="240" height="63" rx="10" fill="var(--paper)" stroke="#c7d2d6" stroke-width="1.4"/>
+      <text x="700" y="126" text-anchor="middle" class="node-label" font-size="13.5" fill="var(--ink)">Extract Choices</text>
+      <text x="700" y="144" text-anchor="middle" class="node-sub" font-size="10.6" fill="var(--ink-soft)">ICD-9 title · synonym</text>
+      <text x="700" y="158" text-anchor="middle" class="node-sub" font-size="10.6" fill="var(--ink-soft)">· index</text>
+
+      <!-- Hub -->
+      <rect x="410" y="255" width="180" height="46" rx="23" fill="var(--teal-tint)" stroke="var(--teal)" stroke-width="1.5"/>
+      <text x="500" y="283" text-anchor="middle" class="node-label" font-size="12.5" fill="var(--teal)">Mapping Methods</text>
+
+      <!-- Three algorithm boxes -->
+      <g>
+        <rect x="70" y="360" width="240" height="72" rx="10" fill="var(--blue-tint)" stroke="var(--blue)" stroke-width="1.4"/>
+        <text x="190" y="384" text-anchor="middle" class="node-label" font-size="12.5" fill="var(--ink)">Method 1 — Exact word</text>
+        <text x="190" y="402" text-anchor="middle" class="node-sub" font-size="10.4" fill="var(--blue)">TF-IDF + cosine similarity</text>
+        <text x="190" y="418" text-anchor="middle" class="tag" font-size="9.5" fill="#7c8a90">term-frequency vectors</text>
+      </g>
+
+      <g>
+        <rect x="380" y="360" width="240" height="72" rx="10" fill="var(--blue-tint)" stroke="var(--blue)" stroke-width="1.4"/>
+        <text x="500" y="384" text-anchor="middle" class="node-label" font-size="12.5" fill="var(--ink)">Method 2 — Fuzzy</text>
+        <text x="500" y="402" text-anchor="middle" class="node-sub" font-size="10.4" fill="var(--blue)">Levenshtein distance</text>
+        <text x="500" y="418" text-anchor="middle" class="tag" font-size="9.5" fill="#7c8a90">fuzz.token_sort_ratio</text>
+      </g>
+
+      <g>
+        <rect x="690" y="360" width="240" height="72" rx="10" fill="var(--blue-tint)" stroke="var(--blue)" stroke-width="1.4"/>
+        <text x="810" y="384" text-anchor="middle" class="node-label" font-size="12.5" fill="var(--ink)">Method 3 — Semantic</text>
+        <text x="810" y="402" text-anchor="middle" class="node-sub" font-size="10.4" fill="var(--blue)">PubMedBERT + cosine similarity</text>
+        <text x="810" y="418" text-anchor="middle" class="tag" font-size="9.5" fill="#7c8a90">contextual embeddings</text>
+      </g>
+
+      <!-- Threshold -->
+      <rect x="350" y="540" width="300" height="60" rx="10" fill="var(--amber-tint)" stroke="var(--amber)" stroke-width="1.5"/>
+      <text x="500" y="564" text-anchor="middle" class="node-label" font-size="13" fill="#8a5a20">Apply Cutting Threshold</text>
+      <text x="500" y="583" text-anchor="middle" class="node-sub" font-size="10.6" fill="var(--amber)">keep top 75th percentile</text>
+
+      <!-- Merge -->
+      <rect x="360" y="635" width="280" height="62" rx="10" fill="var(--violet-tint)" stroke="var(--violet)" stroke-width="1.5"/>
+      <text x="500" y="661" text-anchor="middle" class="node-label" font-size="13" fill="#4f3a72">Gather &amp; Combine</text>
+      <text x="500" y="680" text-anchor="middle" class="node-sub" font-size="10.6" fill="var(--violet)">merge all surviving matches</text>
+
+      <!-- AI Validation -->
+      <rect x="340" y="732" width="320" height="68" rx="10" fill="#f4f1fa" stroke="var(--violet)" stroke-width="1.5" stroke-dasharray="2 0"/>
+      <rect x="352" y="744" width="30" height="16" rx="4" fill="var(--violet)"/>
+      <text x="367" y="756" text-anchor="middle" font-size="9.5" font-weight="700" fill="#fff" font-family="'IBM Plex Mono', monospace">AI</text>
+      <text x="510" y="760" text-anchor="middle" class="node-label" font-size="13" fill="#4f3a72">Send for Recheck &amp; Validation</text>
+      <text x="500" y="781" text-anchor="middle" class="node-sub" font-size="10.4" fill="var(--violet)">model reviews pooled candidates</text>
+
+      <!-- Final -->
+      <circle cx="500" cy="885" r="47" fill="url(#finalGrad)"/>
+      <circle cx="500" cy="885" r="55" fill="none" stroke="var(--green)" stroke-width="1.2" stroke-opacity="0.35"/>
+      <text x="500" y="879" text-anchor="middle" class="node-label" font-size="12.5" fill="#fff">Final</text>
+      <text x="500" y="896" text-anchor="middle" class="node-label" font-size="12.5" fill="#fff">Mapping</text>
+
+    </svg>
+
+    <div class="legend">
+      <div class="legend-item"><span class="swatch" style="background:#e9edee;border:1px solid #c7d2d6"></span> Input data</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--blue-tint);border:1px solid var(--blue)"></span> Similarity algorithm</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--amber-tint);border:1px solid var(--amber)"></span> Threshold rule</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--violet-tint);border:1px solid var(--violet)"></span> Merge / AI validation</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--green)"></span> Final output</div>
+    </div>
+  </div>
+
+  <p class="footer-note">Each of the three methods scores queries independently before results are pooled</p>
+
+</div>
+</body>
+</html>

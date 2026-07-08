@@ -1,0 +1,42 @@
+[
+  {
+    "reasoning": "Liver belongs to the digestive system, not mouth/face.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Tongue operations are separate from lips under mouth codes.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Tongue operations are separate from palate under mouth codes.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Pulmonary valve replacement is distinct from aortic valve replacement.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Mitral valve replacement is distinct from aortic valve replacement.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Unspecified heart valve is outside the specific aortic category.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Tricuspid valve replacement is distinct from aortic valve replacement.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Unspecified heart valve is outside the specific aortic category.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Pulmonary valve replacement is distinct from aortic valve replacement.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Mitral valve replacement is distinct from aortic valve replacement.",
+    "is_correct": false
+  }
+]
