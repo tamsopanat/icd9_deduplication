@@ -1,1 +1,9 @@
+os
+pandas
+numpy
+json
+tqdm
+rapidfuzz
+scikit-learn
+sentence_transformers
 openpyxl
