@@ -1,6 +1,6 @@
 [
   {
-    "reasoning": "Unspecified heart valve is outside the specific tricuspid category.",
+    "reasoning": "Aortic valve replacement is distinct from tricuspid valve replacement.",
     "is_correct": false
   },
   {
@@ -20,7 +20,11 @@
     "is_correct": false
   },
   {
-    "reasoning": "Sialoadenectomy is salivary gland removal, completely unrelated to rectum.",
+    "reasoning": "Cystectomy is bladder removal, completely unrelated to the rectum.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Proctostomy is creating an opening, not a rectal resection.",
     "is_correct": false
   },
   {
@@ -28,11 +32,7 @@
     "is_correct": false
   },
   {
-    "reasoning": "Cystectomy is bladder removal, completely unrelated to the rectum.",
-    "is_correct": false
-  },
-  {
-    "reasoning": "Missing target code data cannot be mapped.",
+    "reasoning": "Sialoadenectomy is salivary gland removal, completely unrelated to rectum.",
     "is_correct": false
   },
   {

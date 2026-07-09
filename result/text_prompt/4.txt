@@ -3,6 +3,13 @@ Parent Category:
 - Inclusion terms: mastoidectomy
 
 Target Code to verify:
+- Title: Mastectomy
+===
+Parent Category:
+- Title: Implantation or replacement of cochlear prosthetic device, multiple channel
+- Inclusion terms: mastoidectomy
+
+Target Code to verify:
 - Title: Other mastoidectomy
 ===
 Parent Category:
@@ -10,7 +17,28 @@ Parent Category:
 - Inclusion terms: mastoidectomy
 
 Target Code to verify:
+- Title: Simple mastoidectomy
+===
+Parent Category:
+- Title: Implantation or replacement of cochlear prosthetic device, multiple channel
+- Inclusion terms: mastoidectomy
+
+Target Code to verify:
+- Title: Radical mastoidectomy
+===
+Parent Category:
+- Title: Implantation or replacement of cochlear prosthetic device, multiple channel
+- Inclusion terms: mastoidectomy
+
+Target Code to verify:
 - Title: Incision of mastoid
+===
+Parent Category:
+- Title: Implantation or replacement of cochlear prosthetic device, multiple channel
+- Inclusion terms: mastoidectomy
+
+Target Code to verify:
+- Title: Revision of mastoidectomy
 ===
 Parent Category:
 - Title: Implantation or replacement of cochlear prosthetic device, multiple channel
@@ -27,43 +55,15 @@ Target Code to verify:
 - Title: Mastectomy
 ===
 Parent Category:
-- Title: Implantation or replacement of cochlear prosthetic device, multiple channel
-- Inclusion terms: mastoidectomy
+- Title: Other operations on mouth and face
+- Inclusion terms: operations on: lips
 
 Target Code to verify:
-- Title: Simple mastoidectomy
-===
-Parent Category:
-- Title: Implantation or replacement of cochlear prosthetic device, multiple channel
-- Inclusion terms: mastoidectomy
-
-Target Code to verify:
-- Title: Revision of mastoidectomy
-===
-Parent Category:
-- Title: Implantation or replacement of cochlear prosthetic device, multiple channel
-- Inclusion terms: mastoidectomy
-
-Target Code to verify:
-- Title: Radical mastoidectomy
-===
-Parent Category:
-- Title: Implantation or replacement of cochlear prosthetic device, multiple channel
-- Inclusion terms: mastoidectomy
-
-Target Code to verify:
-- Title: Other mastoidectomy
+- Title: Operations on liver
 ===
 Parent Category:
 - Title: Other operations on mouth and face
 - Inclusion terms: operations on: lips
 
 Target Code to verify:
-- Title: Operations on lens
-===
-Parent Category:
-- Title: Other operations on mouth and face
-- Inclusion terms: operations on: lips
-
-Target Code to verify:
-- Title: Operations on eyelids
+- Title: Operations on tongue

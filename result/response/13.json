@@ -28,11 +28,11 @@
     "is_correct": false
   },
   {
-    "reasoning": "The lens is ocular, completely unrelated to skin nails.",
+    "reasoning": "Nose operations belong to respiratory/ENT, not standard skin nails.",
     "is_correct": false
   },
   {
-    "reasoning": "Nose operations belong to respiratory/ENT, not standard skin nails.",
+    "reasoning": "The lens is ocular, completely unrelated to skin nails.",
     "is_correct": false
   },
   {

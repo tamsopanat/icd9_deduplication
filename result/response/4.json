@@ -1,11 +1,27 @@
 [
   {
+    "reasoning": "Mastectomy is breast surgery, completely unrelated to cochlear/mastoid.",
+    "is_correct": false
+  },
+  {
     "reasoning": "Other mastoidectomy falls under the included mastoidectomy criteria.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Simple mastoidectomy falls under the included mastoidectomy criteria.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Radical mastoidectomy falls under the included mastoidectomy criteria.",
     "is_correct": true
   },
   {
     "reasoning": "Incision is not an implantation, replacement, or mastoidectomy.",
     "is_correct": false
+  },
+  {
+    "reasoning": "Revision of mastoidectomy falls under included mastoidectomy criteria.",
+    "is_correct": true
   },
   {
     "reasoning": "Mastoidectomy matches the parent category inclusion criteria.",
@@ -16,27 +32,11 @@
     "is_correct": false
   },
   {
-    "reasoning": "Simple mastoidectomy falls under the included mastoidectomy criteria.",
-    "is_correct": true
-  },
-  {
-    "reasoning": "Revision of mastoidectomy falls under included mastoidectomy criteria.",
-    "is_correct": true
-  },
-  {
-    "reasoning": "Radical mastoidectomy falls under the included mastoidectomy criteria.",
-    "is_correct": true
-  },
-  {
-    "reasoning": "Other mastoidectomy falls under the included mastoidectomy criteria.",
-    "is_correct": true
-  },
-  {
-    "reasoning": "Lens is part of the eye, not mouth/face.",
+    "reasoning": "Liver belongs to the digestive system, not mouth/face.",
     "is_correct": false
   },
   {
-    "reasoning": "Eyelids belong to the eye region, not mouth/face.",
+    "reasoning": "Tongue operations are separate from lips under mouth codes.",
     "is_correct": false
   }
 ]

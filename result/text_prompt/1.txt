@@ -3,7 +3,7 @@ Parent Category:
 - Inclusion terms: operations on: thymus
 
 Target Code to verify:
-- Title: Operations on thalamus
+- Title: Operations on cornea
 ===
 Parent Category:
 - Title: Operations on other endocrine glands
@@ -17,14 +17,14 @@ Parent Category:
 - Inclusion terms: operations on: thymus
 
 Target Code to verify:
-- Title: Operations on cornea
+- Title: Operations on ureter
 ===
 Parent Category:
 - Title: Operations on other endocrine glands
 - Inclusion terms: operations on: thymus
 
 Target Code to verify:
-- Title: Operations on ureter
+- Title: Operations on thalamus
 ===
 Parent Category:
 - Title: Repair of retinal tear
@@ -45,11 +45,18 @@ Parent Category:
 - Inclusion terms: Atherectomy of other non-coronary vessel(s) That by transluminal extraction
 
 Target Code to verify:
-- Title: Percutaneous atherectomy of extracranial vessel(s)
+- Title: Percutaneous atherectomy of intracranial vessel(s)
 ===
 Parent Category:
 - Title: Atherectomy of other non-coronary vessel(s)
 - Inclusion terms: Atherectomy of other non-coronary vessel(s) That by transluminal extraction
+
+Target Code to verify:
+- Title: Percutaneous atherectomy of extracranial vessel(s)
+===
+Parent Category:
+- Title: Atherectomy of other non-coronary vessel(s)
+- Inclusion terms: Directional atherectomy
 
 Target Code to verify:
 - Title: Percutaneous atherectomy of intracranial vessel(s)
@@ -60,10 +67,3 @@ Parent Category:
 
 Target Code to verify:
 - Title: Percutaneous atherectomy of extracranial vessel(s)
-===
-Parent Category:
-- Title: Atherectomy of other non-coronary vessel(s)
-- Inclusion terms: Directional atherectomy
-
-Target Code to verify:
-- Title: Transluminal coronary atherectomy

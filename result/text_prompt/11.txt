@@ -17,6 +17,27 @@ Parent Category:
 - Inclusion terms: operations on: flank
 
 Target Code to verify:
+- Title: Operations on cornea
+===
+Parent Category:
+- Title: Other operations on abdominal region
+- Inclusion terms: operations on: flank
+
+Target Code to verify:
+- Title: Operations on vitreous
+===
+Parent Category:
+- Title: Other operations on abdominal region
+- Inclusion terms: operations on: flank
+
+Target Code to verify:
+- Title: Operations on ureter
+===
+Parent Category:
+- Title: Other operations on abdominal region
+- Inclusion terms: operations on: flank
+
+Target Code to verify:
 - Title: Operations on anus
 ===
 Parent Category:
@@ -32,27 +53,6 @@ Parent Category:
 
 Target Code to verify:
 - Title: Operations on thalamus
-===
-Parent Category:
-- Title: Other operations on abdominal region
-- Inclusion terms: operations on: flank
-
-Target Code to verify:
-- Title: Operations on vitreous
-===
-Parent Category:
-- Title: Other operations on abdominal region
-- Inclusion terms: operations on: flank
-
-Target Code to verify:
-- Title: Operations on cornea
-===
-Parent Category:
-- Title: Other operations on abdominal region
-- Inclusion terms: operations on: flank
-
-Target Code to verify:
-- Title: Operations on ureter
 ===
 Parent Category:
 - Title: Other operations on abdominal region

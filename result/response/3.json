@@ -1,23 +1,11 @@
 [
   {
-    "reasoning": "Simple mastoidectomy falls under the included mastoidectomy criteria.",
-    "is_correct": true
+    "reasoning": "Incision is not an implantation, replacement, or mastoidectomy.",
+    "is_correct": false
   },
   {
     "reasoning": "Revision of mastoidectomy falls under included mastoidectomy criteria.",
     "is_correct": true
-  },
-  {
-    "reasoning": "Radical mastoidectomy falls under the included mastoidectomy criteria.",
-    "is_correct": true
-  },
-  {
-    "reasoning": "Other mastoidectomy falls under the included mastoidectomy criteria.",
-    "is_correct": true
-  },
-  {
-    "reasoning": "Incision is not an implantation, replacement, or mastoidectomy.",
-    "is_correct": false
   },
   {
     "reasoning": "Mastoidectomy matches the parent category inclusion criteria.",
@@ -28,15 +16,27 @@
     "is_correct": false
   },
   {
+    "reasoning": "Other mastoidectomy falls under the included mastoidectomy criteria.",
+    "is_correct": true
+  },
+  {
     "reasoning": "Simple mastoidectomy falls under the included mastoidectomy criteria.",
     "is_correct": true
+  },
+  {
+    "reasoning": "Radical mastoidectomy falls under the included mastoidectomy criteria.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Incision is not an implantation, replacement, or mastoidectomy.",
+    "is_correct": false
   },
   {
     "reasoning": "Revision of mastoidectomy falls under included mastoidectomy criteria.",
     "is_correct": true
   },
   {
-    "reasoning": "Radical mastoidectomy falls under the included mastoidectomy criteria.",
+    "reasoning": "Mastoidectomy matches the parent category inclusion criteria.",
     "is_correct": true
   }
 ]

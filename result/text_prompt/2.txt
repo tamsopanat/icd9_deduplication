@@ -3,6 +3,13 @@ Parent Category:
 - Inclusion terms: Directional atherectomy
 
 Target Code to verify:
+- Title: Transluminal coronary atherectomy
+===
+Parent Category:
+- Title: Atherectomy of other non-coronary vessel(s)
+- Inclusion terms: Excimer laser atherectomy
+
+Target Code to verify:
 - Title: Percutaneous atherectomy of intracranial vessel(s)
 ===
 Parent Category:
@@ -21,7 +28,7 @@ Target Code to verify:
 ===
 Parent Category:
 - Title: Atherectomy of other non-coronary vessel(s)
-- Inclusion terms: Excimer laser atherectomy
+- Inclusion terms: Rotational atherectomy
 
 Target Code to verify:
 - Title: Percutaneous atherectomy of intracranial vessel(s)
@@ -41,29 +48,22 @@ Target Code to verify:
 - Title: Transluminal coronary atherectomy
 ===
 Parent Category:
-- Title: Atherectomy of other non-coronary vessel(s)
-- Inclusion terms: Rotational atherectomy
+- Title: Implantation or replacement of cochlear prosthetic device, not otherwise specified
+- Inclusion terms: mastoidectomy
 
 Target Code to verify:
-- Title: Percutaneous atherectomy of intracranial vessel(s)
+- Title: Other mastoidectomy
 ===
 Parent Category:
 - Title: Implantation or replacement of cochlear prosthetic device, not otherwise specified
 - Inclusion terms: mastoidectomy
 
 Target Code to verify:
-- Title: Incision of mastoid
+- Title: Simple mastoidectomy
 ===
 Parent Category:
 - Title: Implantation or replacement of cochlear prosthetic device, not otherwise specified
 - Inclusion terms: mastoidectomy
 
 Target Code to verify:
-- Title: Mastoidectomy
-===
-Parent Category:
-- Title: Implantation or replacement of cochlear prosthetic device, not otherwise specified
-- Inclusion terms: mastoidectomy
-
-Target Code to verify:
-- Title: Mastectomy
+- Title: Radical mastoidectomy

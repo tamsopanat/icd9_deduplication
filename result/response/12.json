@@ -1,6 +1,6 @@
 [
   {
-    "reasoning": "Missing target code data cannot be mapped.",
+    "reasoning": "The rectum belongs to the lower digestive tract, not urethra.",
     "is_correct": false
   },
   {
@@ -20,16 +20,16 @@
     "is_correct": false
   },
   {
-    "reasoning": "The thalamus is a brain structure, not a joint condyle.",
-    "is_correct": false
-  },
-  {
     "reasoning": "The vitreous is an eye structure, not a joint condyle.",
     "is_correct": false
   },
   {
-    "reasoning": "Missing target code data cannot be mapped.",
+    "reasoning": "The thalamus is a brain structure, not a joint condyle.",
     "is_correct": false
+  },
+  {
+    "reasoning": "Operations on a ligament match the inclusion criteria for joints.",
+    "is_correct": true
   },
   {
     "reasoning": "Specific graft/prosthesis repairs are excluded from unspecified repair codes.",

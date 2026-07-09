@@ -3,7 +3,7 @@ Parent Category:
 - Inclusion terms: Open and other replacement of tricuspid valve with tissue graft that by: homograft
 
 Target Code to verify:
-- Title: Open and other replacement of unspecified heart valve
+- Title: Open and other replacement of aortic valve with tissue graft
 ===
 Parent Category:
 - Title: Insertion of percutaneous external heart assist device
@@ -38,7 +38,14 @@ Parent Category:
 - Inclusion terms: Complete proctectomy
 
 Target Code to verify:
-- Title: Complete sialoadenectomy
+- Title: Partial cystectomy
+===
+Parent Category:
+- Title: Abdominoperineal resection of rectum
+- Inclusion terms: Complete proctectomy
+
+Target Code to verify:
+- Title: Proctostomy
 ===
 Parent Category:
 - Title: Abdominoperineal resection of rectum
@@ -52,14 +59,7 @@ Parent Category:
 - Inclusion terms: Complete proctectomy
 
 Target Code to verify:
-- Title: Partial cystectomy
-===
-Parent Category:
-- Title: Abdominoperineal resection of rectum
-- Inclusion terms: Complete proctectomy
-
-Target Code to verify:
-- Title: nan
+- Title: Complete sialoadenectomy
 ===
 Parent Category:
 - Title: Operations on gallbladder and biliary tract

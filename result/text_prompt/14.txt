@@ -3,14 +3,14 @@ Parent Category:
 - Inclusion terms: venography using contrast material
 
 Target Code to verify:
-- Title: Arteriography using contrast material
+- Title: Angiocardiography using contrast material
 ===
 Parent Category:
 - Title: Phlebography
 - Inclusion terms: venography using contrast material
 
 Target Code to verify:
-- Title: Angiocardiography using contrast material
+- Title: Arteriography using contrast material
 ===
 Parent Category:
 - Title: Diagnostic ultrasound

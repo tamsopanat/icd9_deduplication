@@ -1,10 +1,10 @@
 [
   {
-    "reasoning": "Arteriography visualizes arteries, whereas phlebography is strictly for veins.",
+    "reasoning": "Angiocardiography visualizes heart chambers, not peripheral veins specifically.",
     "is_correct": false
   },
   {
-    "reasoning": "Angiocardiography visualizes heart chambers, not peripheral veins specifically.",
+    "reasoning": "Arteriography visualizes arteries, whereas phlebography is strictly for veins.",
     "is_correct": false
   },
   {

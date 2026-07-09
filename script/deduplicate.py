@@ -6,7 +6,9 @@ import collections
 warnings.filterwarnings("ignore", category=FutureWarning)
 icd9 = pd.read_json('../data/icd9-cm-2015-code.json').T
 icd9 = icd9.reset_index(names="Code")
-includeMap = pd.read_excel('../result/icd9_inclusion_mapping_summary_TFIDF.xlsx', dtype='string')
+includeMap = pd.read_excel('../result/icd9_inclusion_mapping_summary.xlsx', dtype='string')
+includeMap = includeMap.query('is_correct == "True"')
+includeMap = includeMap[['Code','Code_include']].groupby('Code',as_index=False).agg(set)
 combineCode = pd.read_excel('../result/combine_code_summary.xlsx', dtype='string')
 with open('../result/icd9_codeAlso.json', 'r') as f:
     code_also_dict = json.load(f)
@@ -26,7 +28,7 @@ def remove_less_detailed_code(input_code : list[str]) -> list[str]:
             result.append(code)
     return result
 
-includeMap_dict = {row['Code'] : row['Code_include'].split(', ') for i, row in includeMap.iterrows()}
+includeMap_dict = {row['Code'] : row['Code_include'] for i, row in includeMap.iterrows()}
 def remove_include_code(input_code : list[str]) -> list[str]:
     removal_reasons = {}
     for code in input_code:

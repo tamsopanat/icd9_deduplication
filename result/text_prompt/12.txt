@@ -3,7 +3,7 @@ Parent Category:
 - Inclusion terms: operations on: periurethral tissue
 
 Target Code to verify:
-- Title: nan
+- Title: Saucerization rectum
 ===
 Parent Category:
 - Title: Other bilateral destruction or occlusion of fallopian tubes
@@ -38,21 +38,21 @@ Parent Category:
 - Inclusion terms: operations on: condyle
 
 Target Code to verify:
-- Title: Operations on thalamus
+- Title: Operations on vitreous
 ===
 Parent Category:
 - Title: Incision and excision of joint structures
 - Inclusion terms: operations on: condyle
 
 Target Code to verify:
-- Title: Operations on vitreous
+- Title: Operations on thalamus
 ===
 Parent Category:
 - Title: Incision and excision of joint structures
 - Inclusion terms: operations on: ligament
 
 Target Code to verify:
-- Title: nan
+- Title: ligament NEC
 ===
 Parent Category:
 - Title: Repair of the anulus fibrosus with graft or prosthesis

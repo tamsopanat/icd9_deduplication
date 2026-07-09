@@ -37,14 +37,14 @@ This evaluation was conducted using **Gemini 3.5 Flash** (via [ai_check.ipynb](s
 
 📊 **[View the Inclusion Mapping Workflow Diagram](result/inclusionMapping_diagram.html)**
 - **Total Rows Evaluated:** 135
-- **Total Correct Mappings:** 33
-- **Overall Accuracy:** 24.44%
+- **Total Correct Mappings:** 34
+- **Overall Accuracy:** 25.19%
 
 ### Performance per Method
 The table below displays the accuracy across different mapping methods. Note that since maps can be found by multiple methods simultaneously, the sum of individual predictions may exceed unique row totals.
 
 | Method | Total Predictions | Correct Predictions | Accuracy (%) |
 | :--- | :---: | :---: | :---: |
-| **PubMedBERT** | 124 | 33 | 26.61% |
-| **LavenDist** | 64 | 9 | 14.06% |
-| **TFIDF** | 51 | 3 | 5.88% |
+| **TFIDF** | 51 | 30 | 58.82% |
+| **LavenDist** | 64 | 23 | 35.94% |
+| **PubMedBERT** | 124 | 32 | 25.81% |

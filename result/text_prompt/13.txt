@@ -52,14 +52,14 @@ Parent Category:
 - Inclusion terms: operations on: nails
 
 Target Code to verify:
-- Title: Operations on lens
+- Title: Operations on nose
 ===
 Parent Category:
 - Title: Operations on skin and subcutaneous tissue
 - Inclusion terms: operations on: nails
 
 Target Code to verify:
-- Title: Operations on nose
+- Title: Operations on lens
 ===
 Parent Category:
 - Title: Free skin graft

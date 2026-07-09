@@ -1,18 +1,14 @@
 [
   {
-    "reasoning": "Unspecified heart valve is outside the specific pulmonary category.",
-    "is_correct": false
-  },
-  {
-    "reasoning": "Unspecified heart valve is outside the specific pulmonary category.",
-    "is_correct": false
-  },
-  {
     "reasoning": "Aortic valve replacement is distinct from pulmonary valve replacement.",
     "is_correct": false
   },
   {
     "reasoning": "Mitral valve replacement is distinct from pulmonary valve replacement.",
+    "is_correct": false
+  },
+  {
+    "reasoning": "Unspecified heart valve is outside the specific pulmonary category.",
     "is_correct": false
   },
   {
@@ -24,6 +20,10 @@
     "is_correct": false
   },
   {
+    "reasoning": "Mitral valve replacement is distinct from pulmonary valve replacement.",
+    "is_correct": false
+  },
+  {
     "reasoning": "Unspecified heart valve is outside the specific pulmonary category.",
     "is_correct": false
   },
@@ -32,11 +32,11 @@
     "is_correct": false
   },
   {
-    "reasoning": "Mitral valve replacement is distinct from pulmonary valve replacement.",
+    "reasoning": "Aortic valve replacement is distinct from pulmonary valve replacement.",
     "is_correct": false
   },
   {
-    "reasoning": "Pulmonary valve replacement is distinct from tricuspid valve replacement.",
+    "reasoning": "Mitral valve replacement is distinct from tricuspid valve replacement.",
     "is_correct": false
   }
 ]

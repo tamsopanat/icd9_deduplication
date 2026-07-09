@@ -10,7 +10,7 @@ Parent Category:
 - Inclusion terms: Open and other replacement of aortic valve with tissue graft that by: homograft
 
 Target Code to verify:
-- Title: Open and other replacement of unspecified heart valve
+- Title: Open and other replacement of mitral valve with tissue graft
 ===
 Parent Category:
 - Title: Open and other replacement of aortic valve with tissue graft
@@ -24,7 +24,7 @@ Parent Category:
 - Inclusion terms: Open and other replacement of aortic valve with tissue graft that by: homograft
 
 Target Code to verify:
-- Title: Open and other replacement of mitral valve with tissue graft
+- Title: Open and other replacement of unspecified heart valve
 ===
 Parent Category:
 - Title: Open and other replacement of aortic valve with tissue graft
@@ -45,13 +45,6 @@ Parent Category:
 - Inclusion terms: Open and other replacement of mitral valve with tissue graft that by: autograft
 
 Target Code to verify:
-- Title: Open and other replacement of aortic valve with tissue graft
-===
-Parent Category:
-- Title: Open and other replacement of mitral valve with tissue graft
-- Inclusion terms: Open and other replacement of mitral valve with tissue graft that by: autograft
-
-Target Code to verify:
 - Title: Open and other replacement of tricuspid valve with tissue graft
 ===
 Parent Category:
@@ -60,10 +53,17 @@ Parent Category:
 
 Target Code to verify:
 - Title: Open and other replacement of unspecified heart valve
+===
+Parent Category:
+- Title: Open and other replacement of mitral valve with tissue graft
+- Inclusion terms: Open and other replacement of mitral valve with tissue graft that by: autograft
+
+Target Code to verify:
+- Title: Open and other replacement of aortic valve with tissue graft
 ===
 Parent Category:
 - Title: Open and other replacement of mitral valve with tissue graft
 - Inclusion terms: Open and other replacement of mitral valve with tissue graft that by: heterograft
 
 Target Code to verify:
-- Title: Open and other replacement of aortic valve with tissue graft
+- Title: Open and other replacement of pulmonary valve with tissue graft

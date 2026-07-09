@@ -1,6 +1,6 @@
 [
   {
-    "reasoning": "Thalamus is a brain structure, not an endocrine gland.",
+    "reasoning": "Cornea is an eye structure, not an endocrine gland.",
     "is_correct": false
   },
   {
@@ -8,20 +8,16 @@
     "is_correct": false
   },
   {
-    "reasoning": "Cornea is an eye structure, not an endocrine gland.",
+    "reasoning": "Ureter belongs to the urinary system, not endocrine glands.",
     "is_correct": false
   },
   {
-    "reasoning": "Ureter belongs to the urinary system, not endocrine glands.",
+    "reasoning": "Thalamus is a brain structure, not an endocrine gland.",
     "is_correct": false
   },
   {
     "reasoning": "Heart septal defect is unrelated to a retinal tear.",
     "is_correct": false
-  },
-  {
-    "reasoning": "Extracranial vessels are non-coronary, matching the parent category.",
-    "is_correct": true
   },
   {
     "reasoning": "Extracranial vessels are non-coronary, matching the parent category.",
@@ -36,7 +32,11 @@
     "is_correct": true
   },
   {
-    "reasoning": "Coronary vessels are explicitly excluded from non-coronary categories.",
-    "is_correct": false
+    "reasoning": "Intracranial vessels are non-coronary, matching the parent category.",
+    "is_correct": true
+  },
+  {
+    "reasoning": "Extracranial vessels are non-coronary, matching the parent category.",
+    "is_correct": true
   }
 ]

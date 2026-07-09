@@ -1,10 +1,10 @@
 [
   {
-    "reasoning": "Liver belongs to the digestive system, not mouth/face.",
+    "reasoning": "Eyelids belong to the eye region, not mouth/face.",
     "is_correct": false
   },
   {
-    "reasoning": "Tongue operations are separate from lips under mouth codes.",
+    "reasoning": "Lens is part of the eye, not mouth/face.",
     "is_correct": false
   },
   {
@@ -12,15 +12,11 @@
     "is_correct": false
   },
   {
-    "reasoning": "Pulmonary valve replacement is distinct from aortic valve replacement.",
-    "is_correct": false
-  },
-  {
     "reasoning": "Mitral valve replacement is distinct from aortic valve replacement.",
     "is_correct": false
   },
   {
-    "reasoning": "Unspecified heart valve is outside the specific aortic category.",
+    "reasoning": "Pulmonary valve replacement is distinct from aortic valve replacement.",
     "is_correct": false
   },
   {
@@ -32,11 +28,15 @@
     "is_correct": false
   },
   {
+    "reasoning": "Mitral valve replacement is distinct from aortic valve replacement.",
+    "is_correct": false
+  },
+  {
     "reasoning": "Pulmonary valve replacement is distinct from aortic valve replacement.",
     "is_correct": false
   },
   {
-    "reasoning": "Mitral valve replacement is distinct from aortic valve replacement.",
+    "reasoning": "Unspecified heart valve is outside the specific aortic category.",
     "is_correct": false
   }
 ]

@@ -3,7 +3,7 @@ Parent Category:
 - Inclusion terms: mastoidectomy
 
 Target Code to verify:
-- Title: Simple mastoidectomy
+- Title: Incision of mastoid
 ===
 Parent Category:
 - Title: Implantation or replacement of cochlear prosthetic device, not otherwise specified
@@ -17,14 +17,35 @@ Parent Category:
 - Inclusion terms: mastoidectomy
 
 Target Code to verify:
-- Title: Radical mastoidectomy
+- Title: Mastoidectomy
 ===
 Parent Category:
 - Title: Implantation or replacement of cochlear prosthetic device, not otherwise specified
 - Inclusion terms: mastoidectomy
 
 Target Code to verify:
+- Title: Mastectomy
+===
+Parent Category:
+- Title: Implantation or replacement of cochlear prosthetic device, single channel
+- Inclusion terms: mastoidectomy
+
+Target Code to verify:
 - Title: Other mastoidectomy
+===
+Parent Category:
+- Title: Implantation or replacement of cochlear prosthetic device, single channel
+- Inclusion terms: mastoidectomy
+
+Target Code to verify:
+- Title: Simple mastoidectomy
+===
+Parent Category:
+- Title: Implantation or replacement of cochlear prosthetic device, single channel
+- Inclusion terms: mastoidectomy
+
+Target Code to verify:
+- Title: Radical mastoidectomy
 ===
 Parent Category:
 - Title: Implantation or replacement of cochlear prosthetic device, single channel
@@ -38,27 +59,6 @@ Parent Category:
 - Inclusion terms: mastoidectomy
 
 Target Code to verify:
-- Title: Mastoidectomy
-===
-Parent Category:
-- Title: Implantation or replacement of cochlear prosthetic device, single channel
-- Inclusion terms: mastoidectomy
-
-Target Code to verify:
-- Title: Mastectomy
-===
-Parent Category:
-- Title: Implantation or replacement of cochlear prosthetic device, single channel
-- Inclusion terms: mastoidectomy
-
-Target Code to verify:
-- Title: Simple mastoidectomy
-===
-Parent Category:
-- Title: Implantation or replacement of cochlear prosthetic device, single channel
-- Inclusion terms: mastoidectomy
-
-Target Code to verify:
 - Title: Revision of mastoidectomy
 ===
 Parent Category:
@@ -66,4 +66,4 @@ Parent Category:
 - Inclusion terms: mastoidectomy
 
 Target Code to verify:
-- Title: Radical mastoidectomy
+- Title: Mastoidectomy
